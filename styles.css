@@ -1,0 +1,49 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+    font-family: "Inter";
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+}
+
+.name {
+    font-size: 4.5rem;
+    margin-bottom: 0;
+}
+
+.role {
+    font-size: 1.5rem;
+    margin-top: 0;
+    font-weight: normal;
+}
+
+.imageDescription {
+    display: flex;
+}
+
+.picture {
+    max-width: 32rem;
+    border: 2px solid rgb(120 113 108);
+}
+
+.pictureDescription {
+    display: flex;
+    margin-left: 3rem;
+    flex-direction: column;
+}
+
+.pictureDescription > p {
+    max-width: 28rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+}
