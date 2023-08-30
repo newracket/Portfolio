@@ -1,40 +1,280 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en-US">
     <head>
         <title>Aniket's Portfolio</title>
-        <link rel="stylesheet" type="text/css" href="styles.css" />
+        <meta
+            content="Hello! I'm currently a student at the University of California-San Diego, working on a Bachelors in Computer Science. My interests revolve around the field of software engineering, with my area of expertise being web development. I've recently started to get into the field of AI, utilizing the programming language python."
+            name="description" />
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <link href="styles.css" rel="stylesheet" type="text/css" />
         <link
             href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
             rel="stylesheet" />
     </head>
-
     <body>
-        <!-- <div class="container">
-            <h1 class="name">Aniket Gupta</h1>
-            <h2 class="role">Fullstack Software Engineer</h2>
-        </div> -->
-
         <div class="container">
-            <h1 class="name">Aniket Gupta</h1>
-            <h2 class="role">Fullstack Software Engineer</h2>
+            <div class="aboutContainer">
+                <h1 class="name">Aniket Gupta</h1>
+                <h2 class="role">Fullstack Software Engineer</h2>
+                <div class="imageDescription">
+                    <img alt="Portrait Picture" class="picture" src="assets/picture.jpg" width="512" />
+                    <div class="pictureDescription">
+                        <p class="text-base font-semibold max-w-md">
+                            Hello! I'm currently a student at the University of California-San Diego, working on a
+                            Bachelors in Computer Science. My interests revolve around the field of software
+                            engineering, with my area of expertise being web development. I've recently started to get
+                            into the field of AI, utilizing the programming language python.
+                        </p>
+                        <br />
+                        <p class="text-base font-semibold max-w-md">
+                            You can view my projects and skills down below. My socials are linked at the bottom of the
+                            page. Feel free to contact me if you have any employment opportunities, want to work
+                            together on a project, or just want to chat!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="projectsOuterContainer">
+                <h2 class="subTitle">Projects</h2>
+                <div class="projectsInnerContainer">
+                    <div class="projectCard">
+                        <a aria-label="Chess Website" href="https://github.com/newracket/Chess-Website" target="_blank">
+                            <img alt="Chess Website" class="projectImage" src="assets/projects/chess.png" />
+                        </a>
+                        <div style="margin-top: 0.75rem">
+                            <a
+                                aria-label="Chess Website"
+                                href="https://github.com/newracket/Chess-Website"
+                                style="max-width: fit-content"
+                                target="_blank">
+                                <h3 class="projectTitle">Chess Website</h3>
+                            </a>
+                        </div>
+                        <p class="projectDescription">
+                            Chess website made using react and typescript. User can either play against the computer, or
+                            play against another player locally.
+                        </p>
 
-            <div class="imageDescription">
-                <img src="picture.jpg" alt="Portrait Picture" class="picture" />
+                        <div class="projectSkills">
+                            <p class="projectSkillItem">Typescript</p>
+                            <p class="projectSkillItem">HTML/CSS</p>
+                            <p class="projectSkillItem">React</p>
+                        </div>
+                    </div>
+                    <div class="projectCard">
+                        <a
+                            aria-label="Discord Bot"
+                            href="https://github.com/newracket/Discord-Server-Utilities"
+                            target="_blank">
+                            <img
+                                alt="Discord Bot"
+                                class="projectImage"
+                                src="assets/projects/discord_server_utilities.png" />
+                        </a>
+                        <div style="margin-top: 0.75rem">
+                            <a
+                                aria-label="Discord Bot"
+                                href="https://github.com/newracket/Discord-Server-Utilities"
+                                style="max-width: fit-content"
+                                target="_blank">
+                                <h3 class="projectTitle">Discord Bot</h3>
+                            </a>
+                        </div>
+                        <p class="projectDescription">
+                            Discord bot made using typescript and discord.js. Discord bot contains a remind system,
+                            several games, and commands for common discord actions (creating roles, giving roles,
+                            archiving channels, etc)
+                        </p>
 
-                <div class="pictureDescription">
-                    <p class="text-base font-semibold max-w-md">
-                        Hello! I'm currently a student at the University of California-San Diego, working on a Bachelors
-                        in Computer Science. My interests revolve around the field of software engineering, with my area
-                        of expertise being web development. I've recently started to get into the field of AI, utilizing
-                        the programming language python.
-                    </p>
-                    <br />
-                    <p class="text-base font-semibold max-w-md">
-                        You can view my projects and skills down below. My socials are linked at the bottom of the page.
-                        Feel free to contact me if you have any employment opportunities, want to work together on a
-                        project, or just want to chat!
-                    </p>
+                        <div class="projectSkills">
+                            <p class="projectSkillItem">NodeJS</p>
+                            <p class="projectSkillItem">Discord.JS</p>
+                            <p class="projectSkillItem">API</p>
+                        </div>
+                    </div>
+                    <div class="projectCard">
+                        <a
+                            aria-label="Countryside Mapper"
+                            href="https://github.com/newracket/Countryside-Mapper"
+                            target="_blank">
+                            <img
+                                alt="Countryside Mapper"
+                                class="projectImage"
+                                src="assets/projects/countryside_mapper.png" />
+                        </a>
+                        <div style="margin-top: 0.75rem">
+                            <a
+                                aria-label="Countryside Mapper"
+                                href="https://github.com/newracket/Countryside-Mapper"
+                                style="max-width: fit-content"
+                                target="_blank">
+                                <h3 class="projectTitle">Countryside Mapper</h3>
+                            </a>
+                        </div>
+                        <p class="projectDescription">
+                            Agritourism website made using Typescript and React to display agricultural events. Made in
+                            48 hour hackathon-Garuda Hacks. Won runner-up with this project.
+                        </p>
+
+                        <div class="projectSkills">
+                            <p class="projectSkillItem">Typescript</p>
+                            <p class="projectSkillItem">React</p>
+                            <p class="projectSkillItem">Firebase</p>
+                        </div>
+                    </div>
+                    <div class="projectCard">
+                        <a aria-label="PDF Merger" href="https://github.com/newracket/pdf-editor" target="_blank">
+                            <img alt="PDF Merger" class="projectImage" src="assets/projects/pdf_merger.png" />
+                        </a>
+                        <div style="margin-top: 0.75rem">
+                            <a
+                                aria-label="PDF Merger"
+                                href="https://github.com/newracket/pdf-editor"
+                                style="max-width: fit-content"
+                                target="_blank">
+                                <h3 class="projectTitle">PDF Merger</h3>
+                            </a>
+                        </div>
+                        <p class="projectDescription">
+                            PDF merger made using JavaScript and React to merge PDFs. Allows any number of PDFs, and
+                            allows for rearranging PDF pages.
+                        </p>
+
+                        <div class="projectSkills">
+                            <p class="projectSkillItem">NodeJS</p>
+                            <p class="projectSkillItem">React</p>
+                            <p class="projectSkillItem">PDFLib</p>
+                        </div>
+                    </div>
+                    <div class="projectCard">
+                        <a aria-label="Wordle" href="https://github.com/newracket/Wordle" target="_blank">
+                            <img alt="Wordle" class="projectImage" src="assets/projects/wordle.png" />
+                        </a>
+                        <div style="margin-top: 0.75rem">
+                            <a
+                                aria-label="Wordle"
+                                href="https://github.com/newracket/Wordle"
+                                style="max-width: fit-content"
+                                target="_blank">
+                                <h3 class="projectTitle">Wordle</h3>
+                            </a>
+                        </div>
+                        <p class="projectDescription">
+                            Replica of NYTimes Wordle. Uses flask to run the webserver, along with a database to store
+                            the valid words.
+                        </p>
+
+                        <div class="projectSkills">
+                            <p class="projectSkillItem">HTML/CSS</p>
+                            <p class="projectSkillItem">Javascript</p>
+                            <p class="projectSkillItem">Flask</p>
+                            <p class="projectSkillItem">Sqlite3</p>
+                        </div>
+                    </div>
+                    <div class="projectCard">
+                        <a
+                            aria-label="UCSD Courses Scraper"
+                            href="https://github.com/newracket/Classes_Scraper"
+                            target="_blank">
+                            <img
+                                alt="UCSD Courses Scraper"
+                                class="projectImage"
+                                src="assets/projects/classes_scraper.png" />
+                        </a>
+                        <div style="margin-top: 0.75rem">
+                            <a
+                                aria-label="UCSD Courses Scraper"
+                                href="https://github.com/newracket/Classes_Scraper"
+                                style="max-width: fit-content"
+                                target="_blank">
+                                <h3 class="projectTitle">UCSD Courses Scraper</h3>
+                            </a>
+                        </div>
+                        <p class="projectDescription">
+                            Used python and selenium to scrape a list of all the courses from UCSD, along with the data
+                            for all the courses.
+                        </p>
+
+                        <div class="projectSkills">
+                            <p class="projectSkillItem">Python</p>
+                            <p class="projectSkillItem">Selenium</p>
+                        </div>
+                    </div>
+                    <div class="projectCard">
+                        <a
+                            aria-label="Google Classroom Reminders App"
+                            href="https://github.com/newracket/Google-Classroom-Reminders-App"
+                            target="_blank">
+                            <img
+                                alt="Google Classroom Reminders App"
+                                class="projectImage"
+                                src="assets/projects/gc_reminders.png" />
+                        </a>
+                        <div style="margin-top: 0.75rem">
+                            <a
+                                aria-label="Google Classroom Reminders App"
+                                href="https://github.com/newracket/Google-Classroom-Reminders-App"
+                                style="max-width: fit-content"
+                                target="_blank">
+                                <h3 class="projectTitle">Google Classroom Reminders App</h3>
+                            </a>
+                        </div>
+                        <p class="projectDescription">
+                            Used NodeJS and ElectronJS to create a desktop app with an interface to create reminders for
+                            Google Classroom assignments.
+                        </p>
+
+                        <div class="projectSkills">
+                            <p class="projectSkillItem">NodeJS</p>
+                            <p class="projectSkillItem">ElectronJS</p>
+                            <p class="projectSkillItem">HTML/CSS</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="skillsOuterContainer">
+                <h2 class="subTitle">Skills</h2>
+                <div class="skillsInnerContainer">
+                    <img alt="Javascript" src="assets/languages/javascript.png" class="skillImage" />
+                    <img alt="Typescript" src="assets/languages/typescript.png" class="skillImage" />
+                    <img alt="NodeJS" src="assets/languages/nodejs.png" class="skillImage" />
+                    <img alt="Java" src="assets/languages/java.png" class="skillImage" />
+                    <img alt="Python" src="assets/languages/python.png" class="skillImage" />
+                    <img alt="HTML5" src="assets/languages/html5.png" class="skillImage" />
+                    <img alt="CSS3" src="assets/languages/css3.png" class="skillImage" />
+                    <img alt="Go" src="assets/languages/go.png" class="skillImage" />
+                    <img alt="CSharp" src="assets/languages/csharp.png" class="skillImage" />
+                    <img alt="SQL" src="assets/languages/sql.png" class="skillImage" />
+                    <img alt="Bash" src="assets/languages/bash.png" class="skillImage" />
+                    <img alt="Powershell" src="assets/languages/powershell.png" class="skillImage" />
+                </div>
+                <div class="skillsInnerContainer">
+                    <img alt="React" src="assets/libraries/react.png" class="skillImage" />
+                    <img alt="Express" src="assets/libraries/express.png" class="skillImage" />
+                    <img alt="Electron" src="assets/libraries/electron.png" class="skillImage" />
+                    <img alt="Flask" src="assets/libraries/flask.png" class="skillImage" />
+                    <img alt="Numpy" src="assets/libraries/numpy.png" class="skillImage" />
+                    <img alt="Pandas" src="assets/libraries/pandas.png" class="skillImage" />
+                    <img alt="Selenium" src="assets/libraries/selenium.png" class="skillImage" />
+                    <img alt="Tailwind" src="assets/libraries/tailwind.png" class="skillImage" />
+                    <img alt="JQuery" src="assets/libraries/jquery.png" class="skillImage" />
+                    <img alt="Vue" src="assets/libraries/vue.png" class="skillImage" />
+                    <img alt="Firebase" src="assets/libraries/firebase.png" class="skillImage" />
+                    <img alt="Sqlite3" src="assets/libraries/sqlite3.png" class="skillImage" />
+                    <img alt="AWS" src="assets/libraries/aws.png" class="skillImage" />
+                </div>
+            </div>
+            <div class="socialsOuterContainer">
+                <div>
+                    <h2 class="subTitle">Contact Me!</h2>
+                </div>
+                <div class="socialsInnerContainer">
+                    <a aria-label="Github" href="https://github.com/newracket" target="_blank">
+                        <img alt="Github" src="assets/socials/github.png" class="socialImage" />
+                    </a>
+                    <a aria-label="LinkedIn" href="https://www.linkedin.com/in/aniket-gupta-50733a24b/" target="_blank">
+                        <img alt="LinkedIn" src="assets/socials/linkedin.png" class="socialImage" />
+                    </a>
                 </div>
             </div>
         </div>
